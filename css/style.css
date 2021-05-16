@@ -1,33 +1,40 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap");
+
 * {
   margin: 0;
   padding: 0;
-  /* background: #6190e8; fallback for /old browsers
-  background: -webkit-linear-gradient(
-    to right,
-    #a7bfe8,
-    #6190e8
-  ); Chrome 10-25, Safari 5.1-6 */
+
   background: linear-gradient(
     to right,
     #a7bfe8,
     #6190e8
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+body {
+  padding: 30px;
+}
 .hed {
   font-size: 40px;
   margin: 10px;
   text-align: center;
   color: black;
-
-  font-family: "Kanit", sans-serif;
+  font-family: "Macondo Swash Caps", cursive;
 }
 .myself {
   text-align: center;
 }
 .myself-heading {
-  padding: 20px;
+  font-size: 30px;
+  padding: 15px;
+  font-family: "Pangolin", cursive;
 }
 .myself-para {
+  font-size: larger;
   word-spacing: 5px;
+  margin: 10px;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Rock Salt", cursive;
 }
