@@ -13,8 +13,10 @@ body {
   padding: 20px;
 }
 .hed {
+  padding: 10px;
+
   font-size: 40px;
-  margin: 10px;
+
   text-align: center;
   color: cadetblue;
   font-family: "Macondo Swash Caps", cursive;
