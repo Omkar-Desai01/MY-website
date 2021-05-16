@@ -7,31 +7,40 @@
   margin: 0;
   padding: 0;
 
-  background: linear-gradient(
-    to right,
-    #a7bfe8,
-    #6190e8
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: linear-gradient(to right, #a7bfe8, #6190e8); */
 }
 body {
-  padding: 30px;
+  padding: 20px;
 }
 .hed {
   font-size: 40px;
   margin: 10px;
   text-align: center;
-  color: black;
+  color: cadetblue;
   font-family: "Macondo Swash Caps", cursive;
 }
 .myself {
   text-align: center;
+  height: 95vh;
+
+  background-image: linear-gradient(
+      to right top,
+      rgba(0, 0, 0, 0.808),
+      rgba(128, 128, 128, 0.781)
+    ),
+    url(../img/jefferson-santos-9SoCnyQmkzI-unsplash.jpg);
+  background-size: cover;
+  background-position: top center;
+  clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
 }
 .myself-heading {
+  color: white;
   font-size: 30px;
   padding: 15px;
   font-family: "Pangolin", cursive;
 }
 .myself-para {
+  color: rgb(255, 255, 255);
   font-size: larger;
   word-spacing: 5px;
   margin: 10px;
