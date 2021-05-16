@@ -2,12 +2,12 @@
 * {
   margin: 0;
   padding: 0;
-  background: #6190e8; /* fallback for old browsers */
+  /* background: #6190e8; fallback for /old browsers
   background: -webkit-linear-gradient(
     to right,
     #a7bfe8,
     #6190e8
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #a7bfe8,
@@ -21,4 +21,13 @@
   color: black;
 
   font-family: "Kanit", sans-serif;
+}
+.myself {
+  text-align: center;
+}
+.myself-heading {
+  padding: 20px;
+}
+.myself-para {
+  word-spacing: 5px;
 }
