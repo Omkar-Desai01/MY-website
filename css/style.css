@@ -27,8 +27,8 @@ body {
 
   background-image: linear-gradient(
       to right top,
-      rgba(0, 0, 0, 0.808),
-      rgba(128, 128, 128, 0.781)
+      rgba(0, 0, 0, 0.753),
+      rgba(128, 128, 128, 0.747)
     ),
     url(../img/jefferson-santos-9SoCnyQmkzI-unsplash.jpg);
   background-size: cover;
@@ -44,14 +44,14 @@ body {
 .myself-heading {
   color: white;
   font-size: 60px;
-
+  /* font-family: "Maconda Swash Caps"; */
   font-family: "Pangolin", cursive;
 }
 .myself-para {
   color: rgb(255, 255, 255);
-  font-size: larger;
+  font-size: 25px;
   word-spacing: 5px;
   margin: 10px;
-  /* font-family: "Open Sans", sans-serif; */
-  font-family: "Rock Salt", cursive;
+  font-family: "Open Sans", sans-serif;
+  /* font-family: "Rock Salt", cursive; */
 }
