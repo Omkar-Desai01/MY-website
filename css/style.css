@@ -40,6 +40,7 @@ body {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: aquamarine;
 }
 .myself-heading {
   color: white;
@@ -51,7 +52,7 @@ body {
   color: rgb(255, 255, 255);
   font-size: 25px;
   word-spacing: 5px;
-  margin: 10px;
+
   font-family: "Open Sans", sans-serif;
   /* font-family: "Rock Salt", cursive; */
 }
