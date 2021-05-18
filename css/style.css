@@ -46,6 +46,8 @@ body {
   font-size: 60px;
   /* font-family: "Maconda Swash Caps"; */
   font-family: "Pangolin", cursive;
+  animation-name: moveright;
+  animation-duration: 1s;
 }
 .myself-para {
   color: rgb(255, 255, 255);
@@ -54,4 +56,32 @@ body {
 
   font-family: "Open Sans", sans-serif;
   /* font-family: "Rock Salt", cursive; */
+  animation-name: moveleft;
+  animation-duration: 1s;
+}
+@keyframes moveleft {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveright {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
