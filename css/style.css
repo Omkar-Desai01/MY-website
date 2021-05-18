@@ -12,7 +12,7 @@
 body {
   padding: 20px;
 }
-.hed {
+/* .hed {
   padding: 10px;
 
   font-size: 40px;
@@ -20,32 +20,68 @@ body {
   text-align: center;
   color: cadetblue;
   font-family: "Macondo Swash Caps", cursive;
-}
+} */
 .myself {
   text-align: center;
   height: 95vh;
 
   background-image: linear-gradient(
       to right top,
-      rgba(0, 0, 0, 0.808),
-      rgba(128, 128, 128, 0.781)
+      rgba(0, 0, 0, 0.753),
+      rgba(128, 128, 128, 0.747)
     ),
     url(../img/jefferson-santos-9SoCnyQmkzI-unsplash.jpg);
   background-size: cover;
   background-position: top center;
   clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
 }
+.textBox {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .myself-heading {
   color: white;
-  font-size: 30px;
-  padding: 15px;
+  font-size: 60px;
+  /* font-family: "Maconda Swash Caps"; */
   font-family: "Pangolin", cursive;
+  animation-name: moveright;
+  animation-duration: 1s;
 }
 .myself-para {
   color: rgb(255, 255, 255);
-  font-size: larger;
+  font-size: 25px;
   word-spacing: 5px;
-  margin: 10px;
-  /* font-family: "Open Sans", sans-serif; */
-  font-family: "Rock Salt", cursive;
+
+  font-family: "Open Sans", sans-serif;
+  /* font-family: "Rock Salt", cursive; */
+  animation-name: moveleft;
+  animation-duration: 1s;
+}
+@keyframes moveleft {
+  0% {
+    opacity: 0;
+    transform: translateY(100px) rotate(180deg);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveright {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
