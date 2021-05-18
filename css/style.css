@@ -6,23 +6,12 @@
 * {
   margin: 0;
   padding: 0;
-
-  /* background: linear-gradient(to right, #a7bfe8, #6190e8); */
 }
 body {
   padding: 20px;
 }
-/* .hed {
-  padding: 10px;
 
-  font-size: 40px;
-
-  text-align: center;
-  color: cadetblue;
-  font-family: "Macondo Swash Caps", cursive;
-} */
 .myself {
-  text-align: center;
   height: 95vh;
 
   background-image: linear-gradient(
@@ -46,8 +35,7 @@ body {
   font-size: 60px;
   /* font-family: "Maconda Swash Caps"; */
   font-family: "Pangolin", cursive;
-  animation-name: moveright;
-  animation-duration: 1s;
+  animation: moveright 1s;
 }
 .myself-para {
   color: rgb(255, 255, 255);
@@ -56,8 +44,7 @@ body {
 
   font-family: "Open Sans", sans-serif;
   /* font-family: "Rock Salt", cursive; */
-  animation-name: moveleft;
-  animation-duration: 1s;
+  animation: moveleft 1s;
 }
 @keyframes moveleft {
   0% {
