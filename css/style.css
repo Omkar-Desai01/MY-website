@@ -24,6 +24,18 @@ body {
   background-position: top center;
   clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
 }
+.social-icons {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.social-icons img {
+  width: 4vh;
+  padding: 5px;
+}
+.social-icons img:hover {
+  transform: rotate(20deg);
+  width: 4.5vh;
+}
 .textBox {
   position: absolute;
   top: 40%;
