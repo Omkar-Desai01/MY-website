@@ -34,7 +34,8 @@ body {
 }
 .social-icons img:hover {
   transform: rotate(20deg);
-  width: 4.5vh;
+  /* width: 4.5vh; */
+  
 }
 .textBox {
   position: absolute;
