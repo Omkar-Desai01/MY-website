@@ -28,6 +28,7 @@ body {
 .social-icons {
   padding-top: 10px;
   padding-left: 10px;
+  position: fixed;
 }
 .social-icons img {
   width: 5.5vh;
@@ -86,6 +87,17 @@ body {
     transform: translate(0);
   }
 }
+@keyframes moveUpBtn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
 .btn:link,
 .btn:visited {
   transition: all 0.3s;
@@ -104,7 +116,9 @@ body {
 }
 .btn-contactMe {
   border-radius: 100px;
-  margin-top: 10px;
+  margin-top: 30px;
   background: white;
   color: gray;
+  animation: moveUpBtn 0.5s ease-in-out 0.7s;
+  animation-fill-mode: backwards;
 }
