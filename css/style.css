@@ -63,10 +63,10 @@ body {
 @keyframes moveleft {
   0% {
     opacity: 0;
-    transform: translateY(100px) rotate(180deg);
+    transform: translateX(100px);
   }
   80% {
-    transform: translateY(-10px);
+    transform: translateX(-10px);
   }
   100% {
     opacity: 1;
