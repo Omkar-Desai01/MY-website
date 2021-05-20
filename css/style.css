@@ -6,6 +6,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   padding: 20px;
@@ -35,13 +36,13 @@ body {
 .social-icons img:hover {
   transform: rotate(20deg);
   /* width: 4.5vh; */
-  
 }
 .textBox {
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 .myself-heading {
   color: white;
@@ -84,4 +85,26 @@ body {
     opacity: 1;
     transform: translate(0);
   }
+}
+.btn:link,
+.btn:visited {
+  transition: all 0.3s;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 30px;
+  display: inline-block;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.685);
+}
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.685);
+}
+.btn-contactMe {
+  border-radius: 100px;
+  margin-top: 10px;
+  background: white;
+  color: gray;
 }
