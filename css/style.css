@@ -23,7 +23,7 @@ body {
     url(../img/jefferson-santos-9SoCnyQmkzI-unsplash.jpg);
   background-size: cover;
   background-position: top center;
-  clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 85vh, 0% 100%);
 }
 .social-icons {
   padding-top: 10px;
@@ -123,5 +123,8 @@ body {
 }
 
 .about {
-  background-color: #f7f7f7;
+  background-color: #c7c1c1;
+  padding: 15vh 0;
+  margin-top: -10vh;
+  text-align: center;
 }
