@@ -151,9 +151,13 @@ body {
   text-shadow: 0.625rem 1.25rem 1.25rem rgba(0, 0, 0, 0.4);
 }
 .about-textpara {
+  word-spacing: 3px;
   padding: 30px 20px;
   width: 90%;
   height: 300px;
+}
+.about-textpara h3 {
+  padding: 10px 0px;
 }
 .about-imgH {
   position: relative;
@@ -168,12 +172,12 @@ body {
   width: 300px;
   z-index: 10;
   transition: all 0.5;
-  outline-offset: 15px;
+  outline-offset: 20px;
 }
 .about-image:hover {
   transform: scale(1.05);
   z-index: 20;
-  outline: 15px solid rgb(255, 255, 255);
+  outline: 10px solid rgb(61, 161, 255);
 }
 
 .img1 {
