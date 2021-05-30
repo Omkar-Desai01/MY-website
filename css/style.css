@@ -152,12 +152,12 @@ body {
 }
 .about-textpara {
   word-spacing: 3px;
-  padding: 30px 20px;
+  padding: 30px 50px;
   width: 90%;
   height: 300px;
 }
 .about-textpara h3 {
-  padding: 10px 0px;
+  padding: 15px 0px;
 }
 .about-imgH {
   position: relative;
