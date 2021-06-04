@@ -31,6 +31,7 @@ body {
 .social-icons {
   padding-top: 10px;
   padding-left: 10px;
+  transition: all 0.5;
 }
 .social-icons img {
   width: 5.5vh;
@@ -190,7 +191,13 @@ body {
   top: 35%;
   left: 45%;
 }
+
+/* languages  */
+
 .lang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: -15vh;
   height: 100vh;
   background-image: linear-gradient(
@@ -201,4 +208,33 @@ body {
     url(../img/markus-spiske-iar-afB0QQw-unsplash.jpg);
   background-size: cover;
   clip-path: polygon(0 15vh, 100% 0%, 100% 85vh, 0% 100%);
+}
+.langs {
+  padding: 15px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.lang-sec {
+  padding: 10px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.8);
+  transition: all 0.5;
+}
+.lang-sec:hover {
+  transform: scale(1.02) translateY(-10px);
+}
+.lang-img {
+  margin-bottom: 30px;
+  width: 100px;
+  height: 100px;
+}
+.lang-para {
+  word-spacing: 3px;
+  margin-top: 10px;
 }
