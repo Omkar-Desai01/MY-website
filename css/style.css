@@ -179,17 +179,24 @@ body {
   transform: scale(1.05);
   z-index: 20;
   outline: 10px solid rgb(61, 161, 255);
+  box-shadow: 15px 15px 20px rgba(231, 231, 231, 0.63);
 }
 
 .img1 {
   position: absolute;
   top: 30px;
-  left: 50px;
+  left: 0px;
 }
 .img2 {
   position: absolute;
   top: 35%;
-  left: 45%;
+  left: 25%;
+  z-index: 15;
+}
+.img3 {
+  position: absolute;
+  top: 0%;
+  right: 0%;
 }
 
 /* languages  */
@@ -210,14 +217,14 @@ body {
   clip-path: polygon(0 15vh, 100% 0%, 100% 85vh, 0% 100%);
 }
 .langs {
-  padding: 15px;
+  padding: 0 50px;
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
 }
 .lang-sec {
-  padding: 10px;
+  padding: 20px;
   height: 350px;
   display: flex;
   justify-content: center;
@@ -235,6 +242,6 @@ body {
   height: 100px;
 }
 .lang-para {
-  word-spacing: 3px;
+  word-spacing: 2px;
   margin-top: 10px;
 }
